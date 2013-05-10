@@ -1,0 +1,3 @@
+gevent-socketio==0.2.1
+sphinx-me
+django

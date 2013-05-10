@@ -1,0 +1,16 @@
+BTL.py
+LICENSE.txt
+README.txt
+__init__.py
+bencode.py
+setup.cfg
+setup.py
+BitTorrent_bencode.egg-info/PKG-INFO
+BitTorrent_bencode.egg-info/SOURCES.txt
+BitTorrent_bencode.egg-info/dependency_links.txt
+BitTorrent_bencode.egg-info/top_level.txt
+BitTorrent_bencode.egg-info/zip-safe
+test/__init__.py
+test/benchmarkbencode.py
+test/benchmarkdata.py
+test/testbencode.py

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3061526813">
+    <data-source source="LOCAL" name="Forked_Tongue" product="PostgreSQL" version="9.1.9" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC4 (build 901)" uuid="a5cf2101-c19e-479a-a9bc-cbf83149ee74">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/forked_tongue</jdbc-url>
+      <user-name>forked_tongue</user-name>
+      <user-password>dfccdfc5dfd8dfc1dfcfdfcedff5dfdedfc5dfc4dfcddfdfdfcf</user-password>
+      <schema-pattern>forked_tongue.public</schema-pattern>
+      <default-schemas>forked_tongue.public</default-schemas>
+      <default-dialect>PostgreSQL</default-dialect>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/postgresql-9.1-901.jdbc4.jar!/</url>
+        </library>
+        <library>
+          <url>file://$PROJECT_DIR$/postgresql-driver-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,10 @@
+#!/home/josh/PycharmProjects/forked-tounge/virtual_env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'sphinx-me==0.1.2','console_scripts','sphinx-me'
+__requires__ = 'sphinx-me==0.1.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('sphinx-me==0.1.2', 'console_scripts', 'sphinx-me')()
+    )

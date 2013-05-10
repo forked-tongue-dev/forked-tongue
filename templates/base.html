@@ -1,0 +1,39 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootswatch/2.3.1/slate/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/main.css" rel="stylesheet">
+    <title>{% block title %}{% endblock %}</title>
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="span8 offset2">
+            {% if messages %}
+                <ul class="messages">
+
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+
+                </ul>
+                {% for message in messages %}
+                    <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                      <strong>Warning!</strong> {{ message }}
+                    </div>
+                {% endfor %}
+
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% block body %}
+{% endblock %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js"></script>
+</body>
+</html>
