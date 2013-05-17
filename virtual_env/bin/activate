@@ -36,10 +36,10 @@ deactivate () {
     fi
 }
 
-# unset irrelavent variables
+# unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/josh/PycharmProjects/forked-tounge/virtual_env"
+VIRTUAL_ENV="/home/jeremy/forked-tongue/virtual_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
