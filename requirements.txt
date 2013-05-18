@@ -1,0 +1,9 @@
+django
+bencode
+celery
+tastypie
+south
+django-crispy-forms
+django-celery
+psycopg
+gunicorn
