@@ -1,9 +1,10 @@
 django
 bencode
 celery
-tastypie
+django-tastypie
 south
 django-crispy-forms
 django-celery
-psycopg
+psycopg2
 gunicorn
+django-extensions
