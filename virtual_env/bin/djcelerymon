@@ -1,4 +1,7 @@
-#!/home/josh/PycharmProjects/forked-tounge/virtual_env/bin/python
+#!/usr/bin/env python2.7
+
+import os; activate_this=os.path.join(os.path.dirname(os.path.realpath(__file__)), 'activate_this.py'); execfile(activate_this, dict(__file__=activate_this)); del os, activate_this
+
 # EASY-INSTALL-ENTRY-SCRIPT: 'django-celery==3.0.17','console_scripts','djcelerymon'
 __requires__ = 'django-celery==3.0.17'
 import sys

@@ -1,4 +1,4 @@
 forked-tongue
 =============
 
-Forked Tongue Open Source Torrent Tracker
+Forked Tongue is an Open Source Torrent Tracker built on Django.
