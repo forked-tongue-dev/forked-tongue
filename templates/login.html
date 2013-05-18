@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span10 offset1">
+                <h1 class="text-center">Welcome to Forked Tongue, Please login.</h1>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="offset4 span4 text-center"><img style="height:200px;" src="{% static logo %}"></div>
+        </div>
+        <br>
+        <div class="row-fluid">
+            <div class="span4 offset4 text-center">
+                {% crispy form %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

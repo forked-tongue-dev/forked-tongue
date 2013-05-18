@@ -171,3 +171,9 @@ LOGGING = {
 
 BROKER_URL='amqp://guest@localhost//'
 CRISPY_TEMPLATE_PACK = 'bootstrap'
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+
+PRIVATE_TRACKER = True
+SITE_LOGO = 'img/snake.svg'
+SITE_NAME = 'Forked Tongue'
+CRISPY_FAIL_SILENTLY = not DEBUG
